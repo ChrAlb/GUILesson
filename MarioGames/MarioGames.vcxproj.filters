@@ -153,9 +153,6 @@
     <ClInclude Include="S_Sound.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="S_State.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="SharedContext.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -198,6 +195,9 @@
     <ClInclude Include="Window.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="S_State.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Anim_Base.cpp">
@@ -222,9 +222,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GUI_Label.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="GUI_Manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="GUI_Scrollbar.cpp">
@@ -260,9 +257,6 @@
     <ClCompile Include="S_Sound.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="S_State.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="SoundManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -291,6 +285,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="S_State.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI_Manager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
