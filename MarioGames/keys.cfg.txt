@@ -9,10 +9,10 @@ Key_T 5:19
 Key_K 5:10
 Key_O 5:14
 Key_X 5:23
-Player_MoveLeft 24:0
-Player_MoveRight 24:3
+Player_MoveLeft 24:71
+Player_MoveRight 24:72
 Player_MoveUp 24:22
 Player_MoveDown 24:18
-Player_Attack 24:58
+Player_Attack 24:73
 MainMenu_Play 27:MainMenu:Play
 MainMenu_Quit 27:MainMenu:Quit

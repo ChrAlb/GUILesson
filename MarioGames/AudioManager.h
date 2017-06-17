@@ -4,7 +4,7 @@
 
 class AudioManager : public ResourceManager<AudioManager, sf::SoundBuffer>{
 public:
-	AudioManager() : ResourceManager("audio.cfg"){}
+	AudioManager() : ResourceManager("audio.cfg.txt"){}
 
 	sf::SoundBuffer* Load(const std::string& l_path){
 		sf::SoundBuffer* sound = new sf::SoundBuffer();
