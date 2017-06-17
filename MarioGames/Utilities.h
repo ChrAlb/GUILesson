@@ -14,7 +14,7 @@ namespace Utils{
 		if(hModule){
 			char path[256]="";
 			//GetModuleFileName(hModule,path,sizeof(path));
-			
+			 
 			//PathRemoveFileSpec(path);			
 			strcat_s(path, "c:\\Users\\Familie Albrecht\\Documents\\GitHub\\MarioGame\\Kapitel12\\MarioGame\\MarioGame");
 			strcat_s(path,"\\");
