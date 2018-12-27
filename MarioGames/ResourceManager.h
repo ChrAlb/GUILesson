@@ -18,7 +18,7 @@ public:
 	T* GetResource(const std::string& l_id){
 		auto res = Find(l_id);
 		return(res ? res->first : nullptr);
-	}
+	} 
 
 	std::string GetPath(const std::string& l_id){
 		auto path = m_paths.find(l_id);
